@@ -5,7 +5,7 @@ import QuestionBox from "./components/QuestionBox"; // Import QuestionBox compon
 function App() {
   return (
     <div>
-      <QuestionBox/> {/* Render the QuestionBox component */}
+      <QuestionBox/> {/* Rendering the QuestionBox component */}
     </div>
   );
 }
