@@ -4,12 +4,12 @@ import questions from '../questions';// Importing question data
 // Result component to display quiz results
 export default function Result({ score, questionsLength, onRestartQuiz }) {
   const totalQuestions = questionsLength || questions.length;
-   // Calculate percentage score 
+   // Calculating percentage score 
   const percentScore = ((score / totalQuestions) * 100);
 
   const handleRestartQuiz = () => {
     if (onRestartQuiz) {
-      onRestartQuiz(); // Call the onRestartQuiz function if it's provided
+      onRestartQuiz(); // Calling the onRestartQuiz function if it's provided
     }
   };
   return (
