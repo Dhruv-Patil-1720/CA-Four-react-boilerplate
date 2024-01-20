@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
-import questions from "./questions";
-import Result from "./components/Result";
-import QuestionBox from "./components/QuestionBox";
-
-
-
+import QuestionBox from "./components/QuestionBox"; // Import QuestionBox component
+// Main App component
 function App() {
-
   return (
     <div>
-      <QuestionBox/>
-  
+      <QuestionBox/> {/* Render the QuestionBox component */}
     </div>
   );
 }
-
 export default App;
